@@ -1,6 +1,6 @@
 # Low-Rank Approximation and Matrix Completion in Retail Analytics
 
-Numerical Linear Algebra project (University of Luxembourg, May 2026) applying SVD-based
+Numerical Linear Algebra project applying SVD-based
 methods to a real retail transaction dataset from Korzinka.
 
 ## What this is about
@@ -56,5 +56,5 @@ else. A plain truncated SVD doesn't distinguish between these cases, which likel
 why the category-average baseline held up better. Some natural next steps: regularized
 matrix factorization (ALS/SGD-based, which handle missingness more explicitly), testing
 whether behaviour shifts across seasons/months rather than treating the whole year as static,
-and comparing results with and without the ℓ2 row-normalization I used (which flattens out
+and comparing results with and without the ℓ2 row-normalization I used (which flatten out
 differences in total spend).
